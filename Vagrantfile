@@ -3,7 +3,7 @@ Vagrant.configure("2") do |config|
   config.vm.hostname = "grup10.fjeclot10.net"
   config.vm.provider "virtualbox" do |v|
     # v.gui = true
-    v.name = "grup10"
+    v.name = "grup10.2"
     v.memory = 2048
     v.cpus = 2
     v.customize ['modifyvm', :id, '--clipboard', 'bidirectional']   
